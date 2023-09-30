@@ -9,7 +9,7 @@ html {
 }
 
 .cabecero {
-    height: 18vh;
+    height: 12vh;
     display: flex;
     position: relative;
 }
@@ -80,6 +80,7 @@ html {
 .twoosection {
     height: 100%;
     width: 100%;
+    padding-bottom: 1em;
 }
 
 .plantillas {
@@ -111,12 +112,12 @@ html {
     border-radius: 20px;
 }
 
-.Slogan {
+.Slogan{
     position: relative;
     height: 100vh;
     width: 100%;
     color: white;
-    padding-top: 10px;
+    padding-top: 35px;
 }
 
 .titleSlogan {
@@ -275,7 +276,7 @@ html {
 }
 
 .Slogan3 {
-    height: 100vh;
+    height: 90vh;
     width: 100%;
     position: relative;
     background-color: #13191E;
@@ -286,6 +287,7 @@ html {
 .titleSlogan3 {
     padding-left: 1em;
     padding-bottom: 2em;
+
 }
 
 .Centado-geinz {
@@ -422,13 +424,13 @@ html {
     background-color: #13191E;
     color: white;
     position: relative;
-    height: 65vh;
+    height: 55vh;
     width: 100%;
 }
 
 .videopadre {
     position: absolute;
-    bottom: 2.5em;
+    bottom: 0;
 }
 
 /* Estilos para el video */
@@ -436,6 +438,9 @@ html {
     width: 80%;
     /* Ancho medio */
     margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     /* Centrar horizontalmente */
 }
 
@@ -449,7 +454,7 @@ video {
 }
 
 .video h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-family: 'Playfair Display', serif;
     text-align: left;
 }
